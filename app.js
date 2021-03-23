@@ -1,6 +1,6 @@
 function nelio(x, y) {
-    console.log("x" * x)
-    console.log('x' * y)
+    const ascii = 'x'
+    console.log(ascii * x)
+    console.log(ascii * y)
 }
-
 nelio(2, 2)
