@@ -1,10 +1,7 @@
-const ascii = 'x'
-
 function nelio(x, y) {
-    for (i = y; i > 0; i--) {
-        console.log('mijau')
+    for (; y > 0; y--) {
+        console.log("xx")
     }
-
 }
 
 
