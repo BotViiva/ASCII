@@ -1,11 +1,24 @@
-const ascii = 'x'
+let ascii = ' x '
+let tyhja = '   '
 
-function nelio(x, y) {
-    for (i = y; i > 0; i--) {
-        console.log('mijau')
+const nelio = (x, y) => {
+    for (; y > 0; y--) {
+        console.log(ascii.repeat(x))
     }
 
 }
+nelio(5, 5)
+
+const kolmio = (z) => {
+    frame.splice
+    console.log(frame)
+}
+
+let frame = [
+    tyhja, ascii, tyhja,
+    ascii, tyhja, ascii,
+    ascii, ascii, ascii,
+]
 
 
-nelio(2, 2)
+kolmio(3)
